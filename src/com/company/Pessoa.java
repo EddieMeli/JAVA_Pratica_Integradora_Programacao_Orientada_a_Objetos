@@ -34,7 +34,7 @@ public class Pessoa {
         }
         if (IMC < 20) {
             return 20;
-        } else if (IMC >= 20 && IMC <= 20) {
+        } else if (IMC >= 20 && IMC <= 25) {
             return -1;
         } else if (IMC >= 25) {
             return 1;
